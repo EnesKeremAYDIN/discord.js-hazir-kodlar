@@ -1,14 +1,18 @@
 {
   "scripts": {
-    "start": "node bot.js" "_comment": "Node.js'nin çalıştıracağı ana dosya.", 
+    "start": "node bot.js"
   },
-  "dependencies": { "_comment": "Yüklenecek paketler.", 
+  "dependencies": {
     "discord.js": "^12.5.2",
     "fs": "^0.0.2",
     "express": "^4.17.1",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "ataturk-sozu": "2.0.0,
+    "rastgelekelime": "2.0.0"
   },
   "engines": {
-    "node": "12.x" "_comment": "Node.js sürümü.", 
+    "node": "12.x"
   }
 }
+
+"_comment": "3. satır: Node.js'nin çalıştıracağı ana dosya. 5. satır: Yüklenecek paketler. 14. satır: Node.js sürümü.",
