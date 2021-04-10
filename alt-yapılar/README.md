@@ -1,1 +1,1 @@
-Node.js (Discord.js - v12) Discord botları için altyapılar.
+Node.js (Discord.js - v12+) Discord botları için altyapılar.
