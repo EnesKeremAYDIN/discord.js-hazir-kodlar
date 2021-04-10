@@ -46,10 +46,7 @@ client.on("ready", () => {
   console.log(`Oynuyor ayarlandı!`);
 });
 
-const db = require("quick.db");
-const chalk = require("chalk");
 const fs = require("fs");
-const moment = require("moment");
 
 const log = message => {
   console.log(`${message}`);
