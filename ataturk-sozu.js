@@ -1,4 +1,4 @@
-//Reminding: "npm i ataturk-sozu" install the package with the code.
+//Gerekli modüller: ataturk-sozu
 const ataturkSozu = require("ataturk-sozu");
 
 exports.run = async (client, message) => {
