@@ -1,14 +1,14 @@
 {
   "scripts": {
-    "start": "node bot.js" // Node.js'nin çalıştıracağı dosya.
+    "start": "node bot.js" "_comment": "Node.js'nin çalıştıracağı ana dosya.", 
   },
-  "dependencies": { // Yüklenecek paketler.
+  "dependencies": { "_comment": "Yüklenecek paketler.", 
     "discord.js": "^12.5.2",
     "fs": "^0.0.2",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
   },
   "engines": {
-    "node": "12.x" // Node.js sürümü.
+    "node": "12.x" "_comment": "Node.js sürümü.", 
   }
 }
