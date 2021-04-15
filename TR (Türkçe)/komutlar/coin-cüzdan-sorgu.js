@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
   if (!args[0])
     return message.channel.send(
       new Discord.MessageEmbed()
-        .setTitle("For which coin do you want to make a wallet query?")
+        .setTitle("Hangi coin için cüzdan sorgusu yapmak istiyorsunuz?")
         .setDescription(
           `Auroracoin/AUR: **auroracoin** or **AUR**
 Bankex/BKX: **bankex** or **BKX**
@@ -63,7 +63,7 @@ ZenCash/ZEN: **zencash** or **ZEN**
     message.reply("**" + wallet + "** geçerli bir **" + coin + "** adresi.");
   } else {
     message.reply(
-      "**" + wallet + "** geçersiz **" + coin + "** adresi."
+      "**" + wallet + "** geçersiz bir **" + coin + "** adresi."
     );
   }
 };
