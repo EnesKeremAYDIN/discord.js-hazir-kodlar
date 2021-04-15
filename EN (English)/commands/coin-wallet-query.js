@@ -1,3 +1,5 @@
+// Required NPM modules: "discord.js" and "wallet-address-validato".
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var WAValidator = require("wallet-address-validator");
