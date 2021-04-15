@@ -1,4 +1,4 @@
-//Gerekli modüller: ataturk-sozu
+//Gerekli NPM modülleri: "ataturk-sozu"
 const ataturkSozu = require("ataturk-sozu");
 
 exports.run = async (client, message) => {
