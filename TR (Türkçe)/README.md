@@ -6,10 +6,11 @@ Not: Tüm komutlar Discord.js'nin v12+ sürümleri içindir.
 # Node.js (Discord.js) Discord Bot komutları:  
   
 Kendi dosyasına -genellikle "komutlar", "commands" vb. klasörlerin içinde- sahip olması gereken komutlar:  
- -[Atatürk sözü](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/komutlar/ataturk-sozu.js)  
+ -[Atatürk sözü](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/TR%20(Türkçe)/komutlar/ataturk-sozu.js)  
+ -[Atatürk sözü](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/TR%20(Türkçe)/komutlar/ataturk-sozu.js)  
   
 Main (bot.js, index.js vb.) komutları:  
   -
 
 # Node.js (Discord.js) Discord bot altyapıları:  
-  -[Basit, sade altyapı - 1](https://github.com/EnesKeremAYDIN/Discord.js/tree/master/alt-yapılar/alt-yapı-1)
+  -[Basit, sade altyapı - 1](https://github.com/EnesKeremAYDIN/Discord.js/tree/master/TR%20(Türkçe)/alt-yapılar/alt-yapı-1)
