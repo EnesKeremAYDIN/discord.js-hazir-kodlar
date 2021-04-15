@@ -1,13 +1,12 @@
 require("./keepAlive");
 const Discord = require("discord.js");
-const client = new Discord.Client({ disableMentions: "everyone" });
-var bot = new Discord.Client();
+const client = new Discord.Client();
 
 https: client.conf = {
   token: "BOT_TOKEN", //Bot'un tokeni.
-  pref: "BOT_PREFİX", //Bot'un prefixi.
-  own: "BOT_SAHİBİ", //Bot'un sahibinin Discord ID'si. | ID nasıl alınır?: https://support.discord.com/hc/tr/articles/206346498-Kullanıcı-Sunucu-Mesaj-ID-sini-Nerden-Bulurum-
-  oynuyor: "BOT_OYNUYOR", //Bot'un oynuyor kısmı.
+  prefix: "BOT_PREFİX", //Bot'un prefixi.
+  sahip: "BOT_SAHİBİ", //Bot'un sahibinin Discord ID'si. | ID nasıl alınır?: https://support.discord.com/hc/tr/articles/206346498-Kullanıcı-Sunucu-Mesaj-ID-sini-Nerden-Bulurum-
+  oynuyor: "BOT_OYNUYOR", //Bot'un oynuyor kısmında yazacak yazı.
   durum: "BOT_DURUM" //Bot'un durumu. | "online": çevrimiçi, "offline": çevrimdışı, "idle": boşta, "dnd": rahatsız etmeyin.
 };
 
@@ -31,9 +30,8 @@ client.on("message", message => {
 });
 
 client.on("ready", () => {
-  console.log(`Komutlar yüklendi, bot başlatılıyor.`);
   console.log(
-    `${client.user.username} ismi ile Discord hesabı aktifleştirildi!`
+    `${client.user.username} ismi ile Discord'a giriş yapıldı.`
   );
   client.user.setStatus(client.conf.durum);
   let mob;
@@ -56,7 +54,7 @@ client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 fs.readdir("./komutlar/", (err, files) => {
   if (err) console.error(err);
-  log(`${files.length} adet komut yüklenmeye hazır. Komutlar yükleniyor.`);
+  log(`Komutlar yükleniyor. Komut adedi: ${files.length}.`);
   files.forEach(f => {
     let props = require(`./komutlar/${f}`);
     log(`Komut yükleniyor: ${props.help.name}'.`);
@@ -118,7 +116,7 @@ client.unload = command => {
   });
 };
 
-//Komutları kimlerin kullanabileceğinin yani perm yetkilerinin kodları:
+//Komutları kimlerin kullanabileceğinin yani perm yetkilerinin numaraları:
 
 client.yetkiler = message => {
   if (!message.guild) {
