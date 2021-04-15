@@ -1,4 +1,4 @@
-//Gerekli modüller (NPM): "discord.js" ve "wallet-address-validato".
+//Gerekli NPM modülleri: "discord.js" ve "wallet-address-validato".
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
@@ -10,48 +10,47 @@ exports.run = async (client, message, args) => {
       new Discord.MessageEmbed()
         .setTitle("Hangi coin için cüzdan sorgusu yapmak istiyorsunuz?")
         .setDescription(
-          `Auroracoin/AUR: **auroracoin** or **AUR**
-Bankex/BKX: **bankex** or **BKX**
-BeaverCoin/BVC: **beavercoin** or **BVC**
-Biocoin/BIO: **biocoin** or **BIO**
-Bitcoin/BTC: **bitcoin** or **BTC**
-BitcoinCash/BCH: **bitcoincash** or **BCH**
-BitcoinGold/BTG: **bitcoingold** or **BTG**
-BitcoinPrivate/BTCP: **bitcoinprivate** or **BTCP**
-BitcoinZ/BTCZ: **bitcoinz** or **BTCZ**
-Callisto/CLO: **callisto** or **CLO**
-Dash: **dash** or **DASH**
-Decred/DCR: **decred** or **DCR**
-Digibyte/DGB: **digibyte** or **DGB**
-Dogecoin/DOGE: **dogecoin** or **DOGE**
-Ethereum/ETH: **ethereum** or **ETH**
-EthereumClassic/ETH: **ethereumclassic** or **ETC**
-EthereumZero/ETZ: **etherzero** or **ETZ**
-Freicoin/FRC: **freicoin** or **FRC**
-Garlicoin/GRLC: **garlicoin** or **GRLC**
-Hush/HUSH: **hush** or **HUSH**
-Komodo/KMD: **komodo** or **KMD**
-Litecoin/LTC: **litecoin** or **LTC**
-Megacoin/MEC: **megacoin** or **MEC**
-Monero/XMR: **monero** or **XMR**
-Namecoin/NMC: **namecoin** or **NMC**
-Nano/NANO: **nano** or **NANO**
-NEO/NEO: **NEO** or **NEO**
-NeoGas/GAS: **neogas** or **GAS**
-Peercoin/PPCoin/PPC: **peercoin** or **PPC**
-Primecoin/XPM: **primecoin** or **XPM**
-Protoshares/PTS: **protoshares** or **PTS**
-Qtum/QTUM: **qtum** or **QTUM**
-Raiblocks/XRB: **raiblocks** or **XRB**
-Ripple/XRP: **ripple** or **XRP**
-Snowgem/SNG: **snowgem** or **SNG**
-Vertcoin/VTC: **vertcoin** or **VTC**
-Votecoin/VTC: **votecoin** or **VOT**
-Zcash/ZEC: **zcash** or **ZEC**
-Zclassic/ZCL: **zclassic** or **ZCL**
-ZenCash/ZEN: **zencash** or **ZEN**
-`
-        )
+          `Auroracoin/AUR: **auroracoin** yada **AUR**
+Bankex/BKX: **bankex** yada **BKX**
+BeaverCoin/BVC: **beavercoin** yada **BVC**
+Biocoin/BIO: **biocoin** yada **BIO**
+Bitcoin/BTC: **bitcoin** yada **BTC**
+BitcoinCash/BCH: **bitcoincash** yada **BCH**
+BitcoinGold/BTG: **bitcoingold** yada **BTG**
+BitcoinPrivate/BTCP: **bitcoinprivate** yada **BTCP**
+BitcoinZ/BTCZ: **bitcoinz** yada **BTCZ**
+Callisto/CLO: **callisto** yada **CLO**
+Dash: **dash** yada **DASH**
+Decred/DCR: **decred** yada **DCR**
+Digibyte/DGB: **digibyte** yada **DGB**
+Dogecoin/DOGE: **dogecoin** yada **DOGE**
+Ethereum/ETH: **ethereum** yada **ETH**
+EthereumClassic/ETH: **ethereumclassic** yada **ETC**
+EthereumZero/ETZ: **etherzero** yada **ETZ**
+Freicoin/FRC: **freicoin** yada **FRC**
+Garlicoin/GRLC: **garlicoin** yada **GRLC**
+Hush/HUSH: **hush** yada **HUSH**
+Komodo/KMD: **komodo** yada **KMD**
+Litecoin/LTC: **litecoin** yada **LTC**
+Megacoin/MEC: **megacoin** yada **MEC**
+Monero/XMR: **monero** yada **XMR**
+Namecoin/NMC: **namecoin** yada **NMC**
+Nano/NANO: **nano** yada **NANO**
+NEO/NEO: **NEO** yada **NEO**
+NeoGas/GAS: **neogas** yada **GAS**
+Peercoin/PPCoin/PPC: **peercoin** yada **PPC**
+Primecoin/XPM: **primecoin** yada **XPM**
+Protoshares/PTS: **protoshares** yada **PTS**
+Qtum/QTUM: **qtum** yada **QTUM**
+Raiblocks/XRB: **raiblocks** yada **XRB**
+Ripple/XRP: **ripple** yada **XRP**
+Snowgem/SNG: **snowgem** yada **SNG**
+Vertcoin/VTC: **vertcoin** yada **VTC**
+Votecoin/VTC: **votecoin** yada **VOT**
+Zcash/ZEC: **zcash** yada **ZEC**
+Zclassic/ZCL: **zclassic** yada **ZCL**
+ZenCash/ZEN: **zencash** yada **ZEN**
+`)
         .setColor("#FFC301")
     );
   let coin = args[0];
@@ -76,5 +75,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: "wallet-query"
+  name: "cüzdan-sorgu"
 };
