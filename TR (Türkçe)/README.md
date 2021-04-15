@@ -7,7 +7,7 @@ Not: Tüm komutlar Discord.js'nin v12+ sürümleri içindir.
   
 Kendi dosyasına -genellikle "komutlar", "commands" vb. klasörlerin içinde- sahip olması gereken komutlar:  
  -[Atatürk sözü](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/TR%20(Türkçe)/komutlar/ataturk-sozu.js)  
- -[Atatürk sözü](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/TR%20(Türkçe)/komutlar/ataturk-sozu.js)  
+ -[Coin cüzdan sorgu](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/TR%20(Türkçe)/komutlar/coin-cüzdan-sorgu.js)  
   
 Main (bot.js, index.js vb.) komutları:  
   -
