@@ -7,6 +7,7 @@ Not: All commands are for v12 + versions of Discord.js.
   
 Kendi dosyasına -genellikle "komutlar", "commands" vb. klasörlerin içinde- sahip olması gereken komutlar:  
  -[Coin wallet query](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/EN%20(English)/commands/coin-wallet-query.js)  
+ -[Corona statistics](https://github.com/EnesKeremAYDIN/Discord.js/blob/master/EN%20(English)/commands/corona-statistics.js)  
   
 ## Main (bot.js, index.js etc.) commands:
   -
